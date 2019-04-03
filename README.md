@@ -76,16 +76,6 @@ Webdrivers.configure do |config|
 end
 ````
 
-If you are getting an error like this (especially common on Windows):
- 
-`SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed`
-
-Add the following to your code:
-
-````ruby
-Webdrivers.net_http_ssl_fix
-````
-
 # Logging
 
 The logging level can be configured for debugging purpose:
